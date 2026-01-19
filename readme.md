@@ -203,14 +203,31 @@ public class UserInput {
 ```
 
 ---
+## User Input Using Scanner (String)
+```
+import java.util.Scanner;
 
-##  Key Takeaways
+public class UserInput2 {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
 
-* Java is strongly typed
-* Variables must be declared before use
-* Use `double` for most decimal calculations
-* `Scanner` is used for user input
+        String name;
+        System.out.println("Enter your name: ");
+        name = sc.nextLine();
+
+        /*
+         sc.next() reads only one word (stops at space)
+         sc.nextLine() reads full line including spaces
+        */
+
+        sc.close(); // closing the scanner
+        System.out.println("Your name is: " + name);
+    }
+}
+```
+---
+## Operators in java
+- **have a look at code files named <b><u>Operators.java<u><b>**
 
 ---
-
 
