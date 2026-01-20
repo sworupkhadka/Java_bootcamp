@@ -2,7 +2,7 @@
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 JavaProject/
@@ -13,7 +13,10 @@ JavaProject/
 │   ├── DataType.java
 │   ├── StringIntro.java
 │   ├── Sum.java
-│   └── UserInput.java
+│   ├── UserInput.java
+│   ├── Operators.java
+│   ├── ConditionalDemo.java
+│   └── SwitchDemo.java
 │── README.md
 ```
 
@@ -43,7 +46,7 @@ java FirstProgram
 
 ---
 
-##  Sample Code: Hello World
+## Sample Code: Hello World
 
 ```java
 public class FirstProgram {
@@ -55,7 +58,7 @@ public class FirstProgram {
 
 ---
 
-##  Explanation (main method)
+## Explanation (main method)
 
 * `public` → JVM can access the method
 * `static` → No object required
@@ -65,169 +68,157 @@ public class FirstProgram {
 
 ---
 
-##  Variables in Java
+## Variables in Java
 
 ```java
-public class VariableDemo {
-    public static void main(String[] args) {
-        int n = 50; // variable storing integer value
-        System.out.println(n);
-    }
-}
+int n = 50;
 ```
 
-### Explanation
-
-* **Variable** → Container that stores data in memory
-* `int` → Integer data type
+* **Variable** → Container that stores data
+* `int` → Data type
 * `n` → Variable name
 
 ---
 
-##  Naming a Variable (camelCase)
-
-Variables should be written in **camelCase**.
-
-**Examples:**
-* age
-* zipCode
-* rollNumber
-
----
-
-##  Variable Declaration vs Initialization
+## Data Types in Java
 
 ```java
-public class VariableDemo2 {
-    static void main(String[] args) {
-        int age;              // declaration
-        int rollNumber;       // camelCase
-        int zipCode;
-        int houseNumber;      // declaration
-
-        houseNumber = 10;     // initialization
-
-        int houseNumber2 = 20; // declaration + initialization
-
-        System.out.println(houseNumber);
-        System.out.println(houseNumber2);
-    }
-}
-```
-
-* **Declaration** → Creating variable
-* **Initialization** → Assigning value
-
----
-
-##  Data Types in Java
-
-```java
-public class DataType {
-    public static void main(String[] args) {
-
-        byte age = 127;              // -128 to 127
-        short zipCode = 31780;       // -32768 to 32767
-        int landLine = 737639;       // whole numbers
-        long phoneNumber = 986720107L; // large numbers
-
-        float price = 1200.332f;     // decimal (less precision)
-        double salary = 240000.89032445435345; // decimal (more precision)
-
-        char gender = 'M';           // single character
-        boolean value = true;        // true or false
-
-        System.out.println(age);
-        System.out.println(zipCode);
-        System.out.println(landLine);
-        System.out.println(phoneNumber);
-        System.out.println(price);
-        System.out.println(salary);
-        System.out.println(gender);
-        System.out.println(value);
-    }
-}
+int age = 20;
+double salary = 45000.50;
+char grade = 'A';
+boolean isActive = true;
 ```
 
 ---
 
-##  String in Java
+## String in Java
 
 ```java
-public class StringIntro {
-    public static void main(String[] args) {
-        String name = "diyo";
-        System.out.println(name);
-    }
-}
+String name = "Diyo";
 ```
 
-* `String` stores text
+* Stores text values
 * Uses double quotes
 
 ---
 
-##  Sum Program
+## User Input (Scanner)
 
 ```java
-public class Sum {
-    public static void main(String[] args) {
-        int a = 2;
-        int b = 3;
-        int sum = a + b;
-        System.out.println(sum);
-    }
-}
-```
-
----
-
-##  User Input Using Scanner
-
-```java
-import java.util.Scanner;
-
-public class UserInput {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Please enter first number:");
-        int firstNumber = input.nextInt();
-
-        System.out.println("Please enter second number:");
-        int secondNumber = input.nextInt();
-
-        System.out.println("The sum = " + (firstNumber + secondNumber));
-    }
-}
-```
-
----
-## User Input Using Scanner (String)
-```
-import java.util.Scanner;
-
-public class UserInput2 {
-public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
+int num = sc.nextInt();
+```
 
-        String name;
-        System.out.println("Enter your name: ");
-        name = sc.nextLine();
+* `nextInt()` → reads integer
+* `next()` → reads single word
+* `nextLine()` → reads full line
 
-        /*
-         sc.next() reads only one word (stops at space)
-         sc.nextLine() reads full line including spaces
-        */
+---
 
-        sc.close(); // closing the scanner
-        System.out.println("Your name is: " + name);
-    }
+## Operators in Java
+
+### Arithmetic Operators
+
+```java
+int a = 10, b = 5;
+System.out.println(a + b);
+System.out.println(a - b);
+System.out.println(a * b);
+System.out.println(a / b);
+System.out.println(a % b);
+```
+
+---
+
+### Logical Operators
+
+Used to combine conditions.
+
+| Operator | Meaning     |   |            |
+| -------- | ----------- | - | ---------- |
+| `&&`     | Logical AND |   |            |
+| `        |             | ` | Logical OR |
+| `!`      | Logical NOT |   |            |
+
+#### Logical AND (&&)
+
+```java
+if (age > 18 && hasId) {
+    System.out.println("Allowed");
 }
 ```
----
-## Operators in java
-- **have a look at code files named <b><u>Operators.java<u><b>**
 
 ---
 
+## Conditional Statements
+
+### if statement
+
+```java
+if (age >= 18) {
+    System.out.println("Adult");
+}
+```
+
+---
+
+### if-else statement
+
+```java
+if (age >= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Minor");
+}
+```
+
+---
+
+### if-else ladder
+
+```java
+if (marks >= 90) {
+    System.out.println("A");
+} else if (marks >= 75) {
+    System.out.println("B");
+} else {
+    System.out.println("C");
+}
+```
+
+---
+
+### switch statement
+
+```java
+switch(day) {
+    case 1:
+        System.out.println("Sunday");
+        break;
+    case 2:
+        System.out.println("Monday");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
+```
+
+---
+
+### Ternary Operator
+
+Short form of if-else in one line.
+
+**Syntax:**
+
+```java
+condition ? valueIfTrue : valueIfFalse;
+```
+
+**Example:**
+
+```java
+int max = (a > b) ? a : b;
+```
+
+---
