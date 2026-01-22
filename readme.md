@@ -110,14 +110,13 @@ System.out.println(a % b);
 
 ### Logical Operators
 
-Used to combine conditions.
+##### Used to combine conditions.
 
-| Operator | Meaning     |   |            |
-| -------- | ----------- | - | ---------- |
-| `&&`     | Logical AND |   |            |
-| `        |             | ` | Logical OR |
-| `!`      | Logical NOT |   |            |
+- Logical AND (&&)
+- Logical OR (||)
+- Logical NOT (!)
 
+---
 #### Logical AND (&&)
 
 ```java
