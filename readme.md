@@ -2,28 +2,6 @@
 
 ---
 
-## Project Structure
-
-```
-JavaProject/
-│── src/
-│   ├── FirstProgram.java
-│   ├── VariableDemo.java
-│   ├── VariableDemo2.java
-│   ├── DataType.java
-│   ├── StringIntro.java
-│   ├── Sum.java
-│   ├── UserInput.java
-│   ├── Operators.java
-│   ├── ConditionalDemo.java
-│   └── SwitchDemo.java
-│── README.md
-```
-
----
-
-## ▶ How to Run the Program
-
 ### Using an IDE
 
 1. Open the project in your IDE (IntelliJ IDEA / Eclipse / VS Code)
@@ -222,3 +200,71 @@ int max = (a > b) ? a : b;
 ```
 
 ---
+
+## Looping Statements in Java
+
+- Loops are used to execute a block of code repeatedly as long as a condition is true.
+---
+
+## While Loop
+
+The **while loop** checks the condition before executing the loop body.
+
+**Syntax:**
+```
+while (condition) {
+// code to execute
+}
+```
+Example:
+```
+int i = 1;
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+```
+
+---
+## do-while Loop
+
+- The **do-while** loop executes the loop body at least once, then checks the condition.
+
+**Syntax:**
+```
+do {
+// code to execute
+} while (condition);
+```
+Example:
+```
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while (i <= 5);
+```
+
+---
+## for Loop
+
+- The **for** loop is used when the number of iterations is known in advance.
+
+Syntax:
+```
+for (initialization; condition; increment/decrement) {
+// code to execute
+}
+```
+Example:
+```
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+```
+---
+### Common Loop Mistakes
+- Missing or extra semicolon (;) after loop condition
+- Infinite loop due to missing increment/decrement
+- Using wrong condition (<= vs <)
+
