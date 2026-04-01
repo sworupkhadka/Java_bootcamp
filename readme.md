@@ -267,3 +267,142 @@ for (int i = 1; i <= 5; i++) {
 - Infinite loop due to missing increment/decrement
 - Using wrong condition (<= vs <)
 
+---
+# Day 7:
+
+---
+## Enhanced for Loop (for-each)
+```
+int numbers[] = {1,2,3,4,5};
+
+for(int num : numbers){
+System.out.println(num);
+}
+```
+### Example: User Input + Loop
+````
+import java.util.Scanner;
+
+public class DoWhileUserInput {
+public static void main (String[] args){
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter count:");
+        int count = scanner.nextInt();
+
+        for(int i = 1; i <= count; i++){
+            System.out.println("Hello World " + i);
+        }
+    }
+}
+````
+
+### Example: ForEach Loop
+````
+public class ForEachLoop {
+static void main(String[] args) {
+int numbers [] ={1,2,3,4,5};
+
+        for(int num : numbers){
+            System.out.println(num * num);
+        }
+    }
+}
+
+````
+
+### Example: Do-While Loop
+````
+public class DoWhile {
+public static void main (String [] args){
+int i = 1;
+
+        do{
+            System.out.println("hello world");
+            i++;
+        } while(i <= 5);
+    }
+}
+
+
+````
+---
+## Break Statement
+````
+import java.util.Scanner;
+
+public class BreakDemo {
+public static void main(String[] args) {
+
+        int numbers[] = {1, 3, 5, 7, 12};
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter a number to search:");
+        int numToSearch = sc.nextInt();
+
+        for(int num : numbers){
+            if (num == numToSearch){
+                System.out.println("number found");
+                break;
+            }
+        }
+    }
+}
+````
+---
+## Continue Statement
+````
+public class ContinueDemo {
+public static void main (String [] args){
+int numbers []={1,2,3,4,5,6};
+
+        for (int num : numbers){
+            if (num % 2 != 0){
+                continue;
+            }
+            System.out.println(num);
+        }
+    }
+}
+
+````
+---
+### String Creation
+````
+public class StringIntro2 {
+public static void main (String args []){
+
+        // string literal (recommended)
+        String programmingLanguage = "Java";
+
+        // using new keyword (creates new memory)
+        String pLanguage = new String("Java");
+    }
+}
+````
+---
+### String Methods
+````
+public class StringMethods {
+public static void main (String args []){
+String state = "New Jersey";
+String city = "iselin";
+
+        System.out.println(state);
+        System.out.println(state.toLowerCase());
+        System.out.println(state.toUpperCase());
+        System.out.println(state.length());
+        System.out.println(state.charAt(2));
+        System.out.println(city.concat(" ").concat(state));
+        System.out.println(state.startsWith("Ne"));
+        System.out.println(state.endsWith("y"));
+        System.out.println(state.indexOf("w"));
+        System.out.println(state.lastIndexOf("y"));
+    }
+}
+````
+---
+## EDO
+
+----
