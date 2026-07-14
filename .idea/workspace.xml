@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97da867e-005b-4f02-900c-505ea1f67076" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java_bootcamp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/array/ArrayExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/array/ArrayExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/array/ArrayUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrrayExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/array/ArrrayExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BreakDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/break_continue/BreakDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContinueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/break_continue/ContinueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/variables/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoWhileUserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/DoWhileUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/FirstProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForEachLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/ForEachLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Forloop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/Forloop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfElseLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/IfElseLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/IfStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImmutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/string/ImmutableString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/LogicalAnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/LogicalOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxElementInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/matrix/MaxElementInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/methods/MethodIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/methods/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/OperatorPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchNameMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/methods/SearchNameMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/string/StringBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/string/StringIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringIntro2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/string/StringIntro2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/string/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/break_continue/SwitchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/day1/TernaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/matrix/TwoDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserDefinedMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/methods/UserDefinedMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/input/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserInput2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/input/UserInput2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/variables/VariableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/variables/VariableDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhileLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_core/loops/WhileLoop.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sworupkhadka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sworupkhadka/Java_bootcamp.git&quot;,
+    &quot;accountId&quot;: &quot;d3c47717-b556-47a7-b1a7-abec809d7bea&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="38Nbw6NgZNmIcjpJCwP3OR7LCp5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array.executor": "Run",
+    "Application.ArrayExample1.executor": "Run",
+    "Application.ArrayExample3.executor": "Run",
+    "Application.ArrayUserInput.executor": "Run",
+    "Application.ArrrayExample2.executor": "Run",
+    "Application.BreakDemo.executor": "Run",
+    "Application.ContinueDemo.executor": "Run",
+    "Application.DataType.executor": "Run",
+    "Application.DoWhile.executor": "Run",
+    "Application.DoWhileUserInput.executor": "Run",
+    "Application.First.executor": "Run",
+    "Application.FirstProgram (1).executor": "Run",
+    "Application.FirstProgram.executor": "Run",
+    "Application.ForEachLoop.executor": "Run",
+    "Application.Forloop.executor": "Run",
+    "Application.IfElseLadder.executor": "Run",
+    "Application.IfStatement.executor": "Run",
+    "Application.ImmutableString.executor": "Run",
+    "Application.LogicalAnd.executor": "Run",
+    "Application.LogicalOperators.executor": "Run",
+    "Application.MaxElementInMatrix.executor": "Run",
+    "Application.MethodIntro.executor": "Run",
+    "Application.MethodVariations.executor": "Run",
+    "Application.Methods.executor": "Run",
+    "Application.OperatorPractice.executor": "Run",
+    "Application.Operators.executor": "Run",
+    "Application.SearchNameMethod.executor": "Run",
+    "Application.StringBufferDemo.executor": "Run",
+    "Application.StringIntro.executor": "Run",
+    "Application.StringMethods.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.SwitchDemo.executor": "Run",
+    "Application.TernaryOperator.executor": "Run",
+    "Application.TwoDimensionalArray.executor": "Run",
+    "Application.UserDefinedMethod.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "Application.UserInput2.executor": "Run",
+    "Application.VariableDemo.executor": "Run",
+    "Application.VariableDemo2.executor": "Run",
+    "Application.WhileLoop.executor": "Run",
+    "Application.second.executor": "Run",
+    "Application.third.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sworup/Desktop/code/Java_bootcamp2/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.FirstProgram" />
+      <module name="Java_bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basic_core.day1.FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_core.day1.FirstProgram" />
+      <module name="Java_bootcamp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstProgram" />
+        <item itemvalue="Application.basic_core.day1.FirstProgram" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97da867e-005b-4f02-900c-505ea1f67076" name="Changes" comment="" />
+      <created>1768643210687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768643210687</updated>
+      <workItem from="1768643211795" duration="315000" />
+      <workItem from="1768643542179" duration="16000" />
+      <workItem from="1768643626588" duration="21000" />
+      <workItem from="1768716711864" duration="4704000" />
+      <workItem from="1768737747801" duration="6612000" />
+      <workItem from="1768798471726" duration="2048000" />
+      <workItem from="1768823406724" duration="1073000" />
+      <workItem from="1768889566496" duration="5154000" />
+      <workItem from="1769084002371" duration="2775000" />
+      <workItem from="1775032062175" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

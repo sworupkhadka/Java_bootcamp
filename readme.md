@@ -18,8 +18,8 @@ java FileName
 Example:
 
 ```
-javac FirstProgram.java
-java FirstProgram
+javac basic_core.day1.FirstProgram.java
+java basic_core.day1.FirstProgram
 ```
 
 ---
@@ -27,7 +27,7 @@ java FirstProgram
 ## Sample Code: Hello World
 
 ```java
-public class FirstProgram {
+public class basic_core.day1.FirstProgram {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
@@ -93,9 +93,9 @@ int num = sc.nextInt();
 
 ---
 
-## Operators in Java
+## basic_core.day1.Operators in Java
 
-### Arithmetic Operators
+### Arithmetic basic_core.day1.Operators
 
 ```java
 int a = 10, b = 5;
@@ -108,7 +108,7 @@ System.out.println(a % b);
 
 ---
 
-### Logical Operators
+### Logical basic_core.day1.Operators
 
 ##### Used to combine conditions.
 
@@ -283,7 +283,7 @@ System.out.println(num);
 ````
 import java.util.Scanner;
 
-public class DoWhileUserInput {
+public class basic_core.loops.DoWhileUserInput {
 public static void main (String[] args){
 
         Scanner scanner = new Scanner(System.in);
@@ -300,7 +300,7 @@ public static void main (String[] args){
 
 ### Example: ForEach Loop
 ````
-public class ForEachLoop {
+public class basic_core.loops.ForEachLoop {
 static void main(String[] args) {
 int numbers [] ={1,2,3,4,5};
 
@@ -314,7 +314,7 @@ int numbers [] ={1,2,3,4,5};
 
 ### Example: Do-While Loop
 ````
-public class DoWhile {
+public class basic_core.loops.DoWhile {
 public static void main (String [] args){
 int i = 1;
 
@@ -332,7 +332,7 @@ int i = 1;
 ````
 import java.util.Scanner;
 
-public class BreakDemo {
+public class basic_core.break_continue.BreakDemo {
 public static void main(String[] args) {
 
         int numbers[] = {1, 3, 5, 7, 12};
@@ -353,7 +353,7 @@ public static void main(String[] args) {
 ---
 ## Continue Statement
 ````
-public class ContinueDemo {
+public class basic_core.break_continue.ContinueDemo {
 public static void main (String [] args){
 int numbers []={1,2,3,4,5,6};
 
@@ -370,7 +370,7 @@ int numbers []={1,2,3,4,5,6};
 ---
 ### String Creation
 ````
-public class StringIntro2 {
+public class basic_core.string.StringIntro2 {
 public static void main (String args []){
 
         // string literal (recommended)
@@ -382,9 +382,9 @@ public static void main (String args []){
 }
 ````
 ---
-### String Methods
+### String basic_core.methods.Methods
 ````
-public class StringMethods {
+public class basic_core.string.StringMethods {
 public static void main (String args []){
 String state = "New Jersey";
 String city = "iselin";
