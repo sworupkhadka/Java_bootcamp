@@ -2,7 +2,7 @@ package basic_core.variables;
 
 public class VariableDemo2 {
     static void main(String[] args) {
-        //variable declaration
+        //variable declaration-> datatype name;
         int age;
         int rollNumber;                //variables should be named in camel case i.e. (camelCase)
         int zipCode;
