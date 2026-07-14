@@ -11,7 +11,7 @@ public class MaxElementInMatrix {
         int max = matrix[0][0];
 
         // Loop through each row of the matrix
-        for (int i = 0; i < matrix.length; i++) {
+        for(int i = 0; i < matrix.length; i++) {
 
             // Loop through each column of the current row
             for (int j = 0; j < matrix[i].length; j++) {
@@ -29,4 +29,4 @@ public class MaxElementInMatrix {
         System.out.println("Maximum number is: " + max);
     }
 }
-}
+
