@@ -14,7 +14,7 @@ public class java_class {
     behaviors/models
      */
 
-    public class student{                      //here public is access modifier and student is class name
+    public static class student{                      //here public is access modifier and student is class name
 
         //properties/fields
 
