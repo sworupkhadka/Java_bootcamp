@@ -55,4 +55,3 @@ class_name object_name = new class_name();
     }
 
 }
-
