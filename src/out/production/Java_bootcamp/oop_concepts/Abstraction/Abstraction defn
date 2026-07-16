@@ -1,0 +1,11 @@
+Abstraction is one of the four main principles of Object-Oriented Programming (OOP). It is the process of hiding the internal implementation details and showing only the essential features of an object.
+
+In simple words:
+Abstraction means hiding "how" something works and showing only "what" it does.
+
+Real-world example:
+When you drive a car:
+You use the steering wheel, accelerator, and brake.
+You don't need to know how the engine, fuel system, or transmission works internally.
+
+That is abstraction.
