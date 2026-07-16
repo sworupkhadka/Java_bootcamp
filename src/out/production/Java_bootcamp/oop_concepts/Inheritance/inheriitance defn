@@ -1,0 +1,7 @@
+mechanism in java where one object acquires all the properties and behavior of a parent object
+syntax:
+class child_class_name extends parent_class{
+        fields and methods
+        }
+    ->types of inheritance
+    single, multilevel, multiple, heirarchial

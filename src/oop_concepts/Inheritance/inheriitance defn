@@ -1,0 +1,171 @@
+mechanism in java where one object acquires all the properties and behavior of a parent object
+syntax:
+class child_class_name extends parent_class{
+        fields and methods
+        }
+    ->types of inheritance
+    single, multilevel, hierarchial, hybrid, multiple(not supported in java
+
+    1. Single Inheritance
+    One child class inherits from one parent class.
+
+    Syntax:
+    class Parent {
+        // parent class properties and methods
+    }
+    class Child extends Parent {
+        // child class properties and methods
+    }
+
+
+    Example:
+    class Animal {
+        void eat() {
+            System.out.println("Eating");
+        }
+    }
+    class Dog extends Animal {
+        void bark() {
+            System.out.println("Barking");
+        }
+    }
+
+
+
+    2. Multilevel Inheritance
+    A class inherits from another class, and another class inherits from it.
+
+    Syntax:
+    class GrandParent {
+        // properties and methods
+    }
+    class Parent extends GrandParent {
+        // properties and methods
+    }
+    class Child extends Parent {
+        // properties and methods
+    }
+
+
+
+    Example:
+    class Animal {
+        void eat() {
+            System.out.println("Eating");
+        }
+    }
+    class Dog extends Animal {
+        void bark() {
+            System.out.println("Barking");
+        }
+    }
+    class Puppy extends Dog {
+        void play() {
+            System.out.println("Playing");
+        }
+    }
+
+
+
+    3. Hierarchical Inheritance
+    Multiple child classes inherit from one parent class.
+
+    Syntax:
+    class Parent {
+        // properties and methods
+    }
+    class Child1 extends Parent {
+        // properties and methods
+    }
+    class Child2 extends Parent {
+        // properties and methods
+    }
+
+
+
+    Example:
+    class Animal {
+        void eat() {
+            System.out.println("Eating");
+        }
+    }
+    class Dog extends Animal {
+        void bark() {
+            System.out.println("Barking");
+        }
+    }
+    class Cat extends Animal {
+        void meow() {
+            System.out.println("Meowing");
+        }
+    }
+
+
+
+    4. Multiple Inheritance (Not Supported with Classes)
+    One child class inheriting from multiple parent classes.
+
+    ❌ Java does not support this with classes because it can create ambiguity.
+
+    Not allowed:
+    class A {
+        void show() {
+        }
+    }
+    class B {
+        void show() {
+        }
+    }
+
+    Error
+    class C extends A, B {
+    }
+    Achieved using Interfaces:
+    interface A {
+        void show();
+    }
+    interface B {
+        void display();
+    }
+    class C implements A, B {
+        public void show() {
+            System.out.println("Show method");
+        }
+        public void display() {
+            System.out.println("Display method");
+        }
+    }
+
+
+    5. Hybrid Inheritance
+    Combination of two or more types of inheritance.
+    Java does not support hybrid inheritance using classes.
+
+    ❌ Not allowed:
+
+    class A {
+    }
+    class B extends A {
+    }
+    class C extends A {
+    }
+
+    // Multiple + hierarchical combination
+    class D extends B, C {
+    }
+    Possible using interfaces:
+    interface A {
+        void methodA();
+    }
+    interface B extends A {
+        void methodB();
+    }
+    interface C extends A {
+        void methodC();
+    }
+    class D implements B, C {
+
+        public void methodA() {}
+        public void methodB() {}
+        public void methodC() {}
+    }
