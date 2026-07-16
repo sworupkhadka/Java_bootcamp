@@ -1,0 +1,38 @@
+Polymorphism is an OOP concept that allows an object to take multiple forms. It means that a single action, method, or interface can represent different behaviors depending on the context.
+
+In simple terms:
+Polymorphism allows you to write code that works with general types while letting specific objects decide how they behave.
+Why do we need polymorphism?
+
+Without polymorphism, you might write separate code for every object type.
+
+Example
+1)without polymorphism
+
+Dog dog = new Dog();
+dog.bark();
+Cat cat = new Cat();
+cat.meow();
+
+This works, but imagine having 100 different animals. You would need to check every type and call the correct method manually.
+
+2)With polymorphism:
+
+Animal animal;
+animal = new Dog();
+animal.makeSound();
+
+animal = new Cat();
+animal.makeSound();
+
+The program automatically knows which version of makeSound() to execute.
+
+The two main types of polymorphism
+
+1. Compile-time Polymorphism (Static Polymorphism)
+This happens when the compiler decides which method to call.
+It is achieved through method overloading.
+
+2. Runtime Polymorphism (Dynamic Polymorphism)
+This happens when the decision is made while the program is running.
+It is achieved through method overriding.
