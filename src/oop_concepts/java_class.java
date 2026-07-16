@@ -50,8 +50,10 @@ class_name object_name = new class_name();
 
     static void main(String[] args) {
         student ram=new student();                            // Constructor is called automatically
-//constructor is a special method in Java that is automatically called when an object is created. It is used to initialize the object's data.
-
+/*DefaultConstructor is a special method in Java that is automatically called when an object is created.
+It is used to initialize the object's data.
+DefaultConstructor name is same of class name
+ */
     }
 
 }
