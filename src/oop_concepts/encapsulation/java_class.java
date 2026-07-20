@@ -1,6 +1,4 @@
-package oop_concepts;
-
-import java.util.Scanner;
+package oop_concepts.encapsulation;
 
 /*A class  is a blueprint/template for creating objects.
 It defines what data (variables) and behaviors (methods) an object will have.

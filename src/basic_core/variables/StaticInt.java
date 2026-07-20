@@ -1,4 +1,4 @@
-package oop_concepts;
+package basic_core.variables;
 
 class StaticInt {
 
