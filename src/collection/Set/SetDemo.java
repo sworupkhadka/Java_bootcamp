@@ -1,4 +1,4 @@
-package collection;
+ package collection.Set;
 
 import java.util.*;
 
@@ -22,13 +22,9 @@ public class SetDemo {
 
         //numberList.remove(9);                                                               //removes 9
 
-
-
-
         System.out.println("--------------");
         System.out.println(numberList.size());
         System.out.println("--------------");
-
 
         List<Integer> numToAddList= new ArrayList<>();
         numToAddList.add(11);
@@ -37,12 +33,10 @@ public class SetDemo {
 
         numberList.addAll(numToAddList);
 
-
         Iterator iterator = numberList.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
-
 
     }
 }

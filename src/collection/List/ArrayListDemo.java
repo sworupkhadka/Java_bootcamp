@@ -1,6 +1,4 @@
-package collection;
-
-import basic_core.array.Array;
+package collection.List;
 
 import java.util.ArrayList;
 import java.util.Iterator;

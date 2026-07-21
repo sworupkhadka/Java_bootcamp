@@ -1,8 +1,4 @@
-package collection;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+package collection.List;
 
 
 public class ArrayLimitation {
