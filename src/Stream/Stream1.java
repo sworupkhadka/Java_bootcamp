@@ -16,12 +16,26 @@ public class Stream1 {
 //          List<String> newList = states.stream()
 //                .collect(Collectors.toList());
 
-        // Intermediate operations
+        states.stream()
+                .limit(2)
+                .forEach(state -> System.out.println(state));
+
+
+        /*
+        states.stream()
+
+                .sorted()                                        //ascending order .sorted(Collections.reverseOrder()) in descending order
+               .distinct()                                     //to only take distinct elements and prin t with no repetation use (distinct)
+                .forEach(state -> System.out.println(state));
+ */
+
+
+ /*       // Intermediate operations
         String startsWithV = states.stream()
                 .filter(s -> s.startsWith("v"))                                     // Keep states starting with "v"
                 .findFirst().get();                                                       // Get the first matching state
         System.out.println(startsWithV);
-
+ */
 
 
         // Other stream operations:
